@@ -193,7 +193,7 @@ body {
 
 
 .top_bar {
-	background: url("../img/6.jpg") no-repeat;
+	background: url("../img/4.jpg") no-repeat;
 	background-size: cover;
 	height: 150px;
 	filter: blur(1px) contrast(53%);
@@ -224,8 +224,8 @@ body {
 	background-color: transparent;
     color: white;
     border-radius: 0px;
-    padding: 0px 12px;
-    font-size: 17px;
+    padding: 0px 5px;
+    font-size: 16px;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
@@ -282,9 +282,15 @@ body {
 	box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card_one h3 {
+.card h3 {
 	margin: 11px 0px;
+	font-size: 17px;
 
+}
+
+.card p {
+	margin: 0;
+	font-size: 12px;
 }
 
 .top_title {
