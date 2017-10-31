@@ -229,7 +229,7 @@ body {
 	background-color: transparent;
     color: #333;
     border-radius: 0px;
-    padding: 0px 5px;
+    padding: 6px 5px;
     font-size: 16px;
 }
 
@@ -325,6 +325,172 @@ body {
     color: white;
 
 }
+
+.event {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.event span {
+	font-size: 11px;
+}
+
+
+.event_content {
+	background: #22c1c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+
+.home_map{
+	background: url("../img/google.svg") no-repeat;
+	background-size: contain;
+	background-position: 0px 0px;
+	height: 200px;
+
+}
+
+.home_address {
+	font-size: 12px;
+}
+
+.google_map {
+	box-shadow: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
