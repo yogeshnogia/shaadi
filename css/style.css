@@ -193,11 +193,12 @@ body {
 
 
 .top_bar {
-	background: url("../img/4.jpg") no-repeat;
+	background: url("../img/pp.jpeg") no-repeat;
 	background-size: cover;
 	height: 150px;
 	filter: blur(0px) contrast(120%);
     background-position: 0px;
+    background-position: 0px -9vh;
 }
 
 .margin {
@@ -207,7 +208,7 @@ body {
 .col_pills {
 	padding: 0;
 	position: relative;
-	top: -29px;
+	top: 9px;
 	height: 100vh;
 }
 
@@ -226,14 +227,14 @@ body {
 
 .nav-pills>li>a {
 	background-color: transparent;
-    color: white;
+    color: #333;
     border-radius: 0px;
     padding: 0px 5px;
     font-size: 16px;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-	color: #fff;
+	color: #333;
     border-bottom: 3px solid #E91E63;
     background-color: transparent;
 }
@@ -307,6 +308,7 @@ body {
     font-size: 20px;
     z-index: 99;
     width: 77vw;
+    display: none;
 }
 
 .date {
