@@ -229,7 +229,7 @@ body {
 	background-color: transparent;
     color: #333;
     border-radius: 0px;
-    padding: 6px 5px;
+    padding: 8px 5px;
     font-size: 16px;
 }
 
@@ -244,7 +244,7 @@ body {
 }
 
 .tab-content {
-	margin: 15px;
+	margin: 30px 15px;
 }
 
 
@@ -252,6 +252,7 @@ body {
 	box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
 	margin-bottom: 19px;
 	border-radius: 4px;
+	position: relative;
 } 
 
 .card_icon {
@@ -400,14 +401,11 @@ background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, F
 	box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card_content {
-	position: relative;
-}
 
 .down_icon {
 	position: absolute;
 	bottom: 8px;
-	right: 0px;
+	right: 20px;
 }
 
 
@@ -415,9 +413,6 @@ background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, F
 	display: none;
 }
 
-.tab_pills {
-	height: 2026px;
-}
 
 .thank {
 	margin-top: 55px;
