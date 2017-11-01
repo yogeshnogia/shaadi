@@ -21,4 +21,16 @@ $(document).ready(function() {
 		$(this).next().slideToggle(300);
 	});
 
+    $('#events').find('.card').click(function(){
+
+      //Expand or collapse this panel
+      $(this).css({
+      	"box-shadow": "0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);"
+      });
+      $(this).next().slideToggle('fast');
+
+      //Hide the other panels
+      $(".neha_show").not($(this).next()).slideUp('fast');
+ }); 
+
 });

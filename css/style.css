@@ -195,7 +195,7 @@ body {
 .top_bar {
 	background: url("../img/pp.jpeg") no-repeat;
 	background-size: cover;
-	height: 150px;
+	height: 180px;
 	filter: blur(0px) contrast(120%);
     background-position: 0px;
     background-position: 0px -9vh;
@@ -342,9 +342,10 @@ body {
     background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
-    padding: 10px 50px;
+    padding: 10px 0px 10px 27px;
     border-radius: 5px;
     font-size: 15px;
+    width: 200px;
 
 }
 
@@ -366,14 +367,71 @@ body {
 }
 
 
+.second .event_content {
+	background: #ff7e5f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 
+.third .event_content {
+	background: #F1F2B5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F1F2B5, #135058);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F1F2B5, #135058); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.fourth .event_content {
+	background: #FF4E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card{
+	cursor: pointer;
+}
+
+.neha_show {
+	display: none;
+	padding: 20px 5px 5px 15px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card_content {
+	position: relative;
+}
+
+.down_icon {
+	position: absolute;
+	bottom: 8px;
+	right: 0px;
+}
 
 
+.navbar-header {
+	display: none;
+}
 
+.tab_pills {
+	height: 2026px;
+}
 
+.thank {
+	margin-top: 55px;
+}
 
+.thank_img {
+	width: 100%;
+	height: auto;
+}
 
+.thank_note {
+	box-shadow: 0 14px 120px rgba(86, 111, 140, 0.14);
+    padding: 17px;
+}
 
 
 
