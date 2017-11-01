@@ -428,7 +428,9 @@ background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, F
     padding: 17px;
 }
 
-
+.kill {
+	font-size: 7px;
+}
 
 
 
